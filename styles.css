@@ -4,77 +4,81 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.4;
     background-color: #f4f4f4;
     color: #333;
+    font-size: 12px; /* Zmniejszona czcionka */
 }
 
 .container {
-    width: 80%;
+    width: 100%; /* Zwiększenie szerokości do pełnego ekranu */
     margin: 0 auto;
+    padding: 10px; /* Zmniejszone marginesy wewnętrzne */
 }
 
 header {
     background: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 10px 0; /* Zmniejszone odstępy */
     text-align: center;
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 18px; /* Zmniejszony rozmiar nagłówka */
 }
 
 header .title {
     font-style: italic;
-    margin: 10px 0;
+    margin: 5px 0; /* Mniejsze marginesy */
 }
 
 header .contact a {
     color: #fff;
     text-decoration: none;
+    font-size: 12px; /* Zmniejszona czcionka e-maila */
 }
 
 section {
-    padding: 40px 0;
+    padding: 10px 0; /* Mniejsze odstępy między sekcjami */
 }
 
 h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 16px; /* Zmniejszony rozmiar nagłówków sekcji */
+    margin-bottom: 10px;
     text-align: center;
     color: #333;
 }
 
 ul {
     list-style-type: none;
+    padding-left: 0; /* Usunięto wcięcia list */
 }
 
 li {
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Zmniejszone odstępy między elementami listy */
 }
 
 li h3 {
-    font-size: 1.5em;
+    font-size: 14px; /* Zmniejszony rozmiar podnagłówków */
     color: #333;
 }
 
 li p {
     color: #555;
+    font-size: 12px; /* Zmniejszona czcionka */
 }
 
 footer {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0; /* Mniejsze odstępy */
 }
 
 footer p {
-    font-size: 0.9em;
+    font-size: 10px; /* Zmniejszony rozmiar czcionki w stopce */
 }
 
 a {
